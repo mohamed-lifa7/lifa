@@ -2,7 +2,7 @@
 
 Welcome to the live demo of **Lifa Portfolio**!
 
-[View Live Demo](https://lifa.vercel.app)
+[View Live Demo](https://mohamed-lifa7.vercel.app)
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the live demo of **Lifa Portfolio**!
 
 ## Demo
 
-See the project in action: [Live Demo](https://lifa.vercel.app)
+See the project in action: [Live Demo](https://mohamed-lifa7.vercel.app)
 
 ## Usage
 

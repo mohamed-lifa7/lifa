@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  metadataBase: new URL("https://lifa.vercel.app"),
+  metadataBase: new URL("https://mohamed-lifa7.vercel.app"),
   viewport: "width=device-width, initial-scale=1",
   title: {
     default: "Lifa",
     template: "%s | Lifa",
   },
-  manifest: "https://lifa.vercel.app/site.webmanifest",
+  manifest: "https://mohamed-lifa7.vercel.app/site.webmanifest",
   applicationName: "Lifa",
   creator: "Lifa",
   authors: [
     {
       name: "Lifa",
-      url: "https://lifa.vercel.app",
+      url: "https://mohamed-lifa7.vercel.app",
     },
   ],
   icons: [{ rel: "icon", url: "/favicon.ico" }],
@@ -22,9 +22,9 @@ export const siteConfig: Metadata = {
   openGraph: {
     title: "Lifa",
     description: "Web developer",
-    url: new URL("https://lifa.vercel.app"),
+    url: new URL("https://mohamed-lifa7.vercel.app"),
     siteName: "Lifa",
-    images: [`https://lifa.vercel.app/open-graph-image.jpg`],
+    images: [`https://mohamed-lifa7.vercel.app/open-graph-image.jpg`],
     locale: "en-US",
     type: "website",
   },
@@ -45,7 +45,7 @@ export const siteConfig: Metadata = {
     title: "Lifa",
     creator: "@LifaSeddik",
     card: "summary_large_image",
-    images: ["https://lifa.vercel.app/open-graph-image.jpg"],
+    images: ["https://mohamed-lifa7.vercel.app/open-graph-image.jpg"],
   },
 
   keywords: [
