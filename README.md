@@ -18,8 +18,6 @@ See the project in action: [Live Demo](https://mohamed-lifa7.vercel.app)
 
 ## Usage
 
-Provide instructions on how to set up and run the project locally, if applicable.
-
 ```bash
 # Clone the repository
 git https://github.com/Mohamed-lifa7/lifa.git
@@ -31,7 +29,7 @@ cd lifa
 npm install
 
 # Start the application
-npm start
+npm run dev
 ```
 
 ## License
