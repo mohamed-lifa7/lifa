@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
-
+import { Analytics } from "@vercel/analytics/react";
 import { Montserrat } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { siteConfig } from "@/config/site";
@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "bg-background min-h-screen  antialiased",
+          "min-h-screen bg-background  antialiased",
           montserrat.className,
         )}
       >
@@ -37,6 +37,7 @@ export default function RootLayout({
           <TooltipProvider>
             <SiteHeader />
             {children}
+            <Analytics />
           </TooltipProvider>
         </ThemeProvider>
       </body>
