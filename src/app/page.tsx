@@ -2,7 +2,7 @@ import ProjectCard from "@/components/project-card";
 import { projects } from "@/constant";
 export default function HomePage() {
   return (
-    <main className="container mx-auto my-4 w-full max-w-4xl">
+    <main className="container  mx-auto my-4 w-full max-w-4xl">
       <div className="flex flex-col space-y-4">
         <section>
           <h2 className="text-xl font-semibold">About</h2>
