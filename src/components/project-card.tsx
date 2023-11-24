@@ -14,7 +14,7 @@ import Link from "next/link";
 
 const ProjectCard = (project: Project) => {
   return (
-    <Card className="bg-transparent">
+    <Card>
       <CardHeader>
         <CardTitle className="flex items-center">
           <h3 className="mr-2">{project.name}</h3>{" "}

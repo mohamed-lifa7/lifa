@@ -22,12 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressContentEditableWarning>
-      <body
-        className={cn(
-          "relative min-h-screen  bg-background antialiased",
-          montserrat.className,
-        )}
-      >
+      <body className={cn("min-h-screen antialiased", montserrat.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -35,9 +30,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <TooltipProvider>
-            <div className="absolute inset-0 -z-50 overflow-hidden">
-              <div className="jumbo absolute -inset-[10px] opacity-50"></div>
-            </div>
             <SiteHeader />
             {children}
             <Analytics />
