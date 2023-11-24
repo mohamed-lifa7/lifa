@@ -115,7 +115,7 @@
   
       mask-image: radial-gradient(ellipse at 100% 0%, black 40%, transparent 70%);
   
-      pointer-events: none;
+      pointer-events: auto;
   }
   
   .jumbo::after {
